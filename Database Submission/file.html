@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>upload file here</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+      <h1>You can upload your file here</h1>
+      <form class="form" action="/file" enctype="multipart/form-data" method="post">
+      <label for="file-upload ">upload pdf here:</label>
+      <label for="file-upload" class="custom-file-upload">Upload file here</label>
+      <input id="file-upload" type="file" name="upload" multiple />
+      <p align= "right">
+        <button type="submit" class="btn" name="button" value="Upload">Submit</button>
+      </p>
+    </form>
+  </div>
+</div>
+  </body>
+</html>
